@@ -17,36 +17,36 @@
     <Grid>
         <TextBox Name="ResultTextBox" BorderBrush="#CCCCFF" BorderThickness="2"  HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="24" Margin="10" IsReadOnly="True"/>
         <UniformGrid Rows="6" Columns="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,70,10,10">
-            <!-- Цифры -->
-            <Button Content="7" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="8" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="9" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="/" Click="OperatorButton_Click" Background="#CCCCFF"/>
-
-            <Button Content="4" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="5" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="6" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="*" Click="OperatorButton_Click" Background="#CCCCFF"/>
-
-            <Button Content="1" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="2" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="3" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="-" Click="OperatorButton_Click" Background="#CCCCFF"/>
-
-            <Button Content="0" Click="NumberButton_Click" Background="#FFFF99"/>
-            <Button Content="C" Click="ClearButton_Click" Background="#FFFF00"/>
-            <Button Content="=" Click="EqualsButton_Click" Background="#FFFF00"/>
-            <Button Content="+" Click="OperatorButton_Click" Background="#CCCCFF"/>
-
-            <!-- Тригонометрические функции -->
+            
             <Button Content="sin" Click="TrigonometricFunction_Click" Background="#CCCCFF"/>
             <Button Content="cos" Click="TrigonometricFunction_Click" Background="#CCCCFF"/>
             <Button Content="tan" Click="TrigonometricFunction_Click" Background="#CCCCFF"/>
             <Button Content="cotan" Click="TrigonometricFunction_Click" Background="#CCCCFF"/>
 
-            <!-- Возведение в степень и корень -->
+            <Button Content="C" Click="ClearButton_Click" Background="#FFFF00"/>
             <Button Content="^" Click="PowerButton_Click" Background="#CCCCFF"/>
             <Button Content="√" Click="SquareRootButton_Click" Background="#CCCCFF"/>
+            <Button Content="/" Click="OperatorButton_Click" Background="#CCCCFF"/>
+            
+            <Button Content="7" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="8" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="9" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="*" Click="OperatorButton_Click" Background="#CCCCFF"/>
+            
+            <Button Content="4" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="5" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="6" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="-" Click="OperatorButton_Click" Background="#CCCCFF"/>
+
+            <Button Content="1" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="2" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="3" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content="+" Click="OperatorButton_Click" Background="#CCCCFF"/>
+
+            <Button Content=" " Background="White"/>
+            <Button Content="0" Click="NumberButton_Click" Background="#FFFF99"/>
+            <Button Content=" " Background="White"/>
+            <Button Content="=" Click="EqualsButton_Click" Background="#FFFF00"/>
         </UniformGrid>
     </Grid>
 </Window>
